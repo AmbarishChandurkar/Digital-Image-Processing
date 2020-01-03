@@ -2,12 +2,10 @@
 %% Date : 3 January 2019
 % This MATLAB function encapsulates the algorithm of "Histogram Equalisation"
 % as mentioned on wikipedia URL :- https://en.wikipedia.org/wiki/Histogram_equalization
+%% Output = 'I_HistEq' is the resultant matrix after Histogram Equalisation is Done
 % Demo working is given in a separate Script
 
 function I_HistEq = MyHistEq(ImageName)
-%% Initialisation
-clc; clearvars; close all;
-
 %% Read the image and also get the dimensions
 I = imread(ImageName);
 [Row,Col,Depth] = size(I);
