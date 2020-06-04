@@ -19,4 +19,3 @@ for Row = 1:1:I_OrigEqualisedHist(end)+1
     LUT(Row,2) = NearestTargetPtr - 1;
 end
 Mapping = LUT;
-%% Performing the Specification
